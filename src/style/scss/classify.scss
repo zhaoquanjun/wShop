@@ -1,0 +1,48 @@
+.classify{
+  width:6.4rem;
+  .topImg{
+    height:3.1rem;
+    padding-top: 0.16rem;
+  }
+  .classifyItem{
+    height:4.9rem;
+    background: #fff;
+    .itemImg{
+      height:3.82rem;
+    }
+    .introduce{
+      width: 5.91rem;
+      padding-left: 0.27rem;
+      padding-right: 0.22rem;
+      .itemName{
+        height:0.32rem;
+        padding-top: 0.2rem;
+        font-size: 0.28rem;
+        color: #333;
+      }
+      .info_price{
+        height:0.6rem;
+        line-height: 0.48rem;
+        .itemInfo{
+          float: left;
+          color: #b8b8b8;
+          font-size: 0.22rem;
+        }
+        .itemPrice{
+          float: right;
+          color: #e72519;
+          margin-right: 0.5rem;
+          span{
+            display: block;
+            float: left;
+            font-size: 0.3rem;
+          }
+          .big{
+            font-size: 0.4rem;
+            line-height: .4rem;
+          }
+        }
+      }
+    }
+  }
+}
