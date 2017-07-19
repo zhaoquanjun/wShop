@@ -13,9 +13,9 @@
     data(){
       return {
         imgs: [
-          {img: require('../assets/banner_02.jpg'), url: 'http://zhaoquanjun.github.io/wShop/index.html'},
-          {img: require('../assets/banner_02.jpg'), url: 'http://zhaoquanjun.github.io/wShop/index.html'},
-          {img: require('../assets/banner_02.jpg'), url: 'http://zhaoquanjun.github.io/wShop/index.html'}
+          {img: require('../assets/home/banner_02.jpg'), url: 'http://zhaoquanjun.github.io/wShop/index.html'},
+          {img: require('../assets/home/banner_02.jpg'), url: 'http://zhaoquanjun.github.io/wShop/index.html'},
+          {img: require('../assets/home/banner_02.jpg'), url: 'http://zhaoquanjun.github.io/wShop/index.html'}
         ],
         swiperOpation: {
           autoplay: 3000,

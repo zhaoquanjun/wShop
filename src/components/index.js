@@ -4,8 +4,12 @@ import Classify from './classify.vue'
 import Fruit from './fruit.vue'
 import Meat from './meat.vue'
 import Corn from './corn.vue'
-import NavTo from './navTo.vue'
+import NavTo from './nav-to.vue'
 import Btn from './btn.vue'
+import Car from './car.vue'
+import TopHead from './top-head.vue'
+import MyOrder from './my-order.vue'
+import Tool from './tool.vue'
 export{
   Banner,
   Entrance,
@@ -14,5 +18,9 @@ export{
   Meat,
   Corn,
   NavTo,
-  Btn
+  Btn,
+  Car,
+  TopHead,
+  MyOrder,
+  Tool
 }

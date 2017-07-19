@@ -25,35 +25,35 @@
       return{
         cornLists:[
           {
-            img:require('../assets/corn_01.jpg'),
+            img:require('../assets/home/corn_01.jpg'),
             name:'五常稻谷大米（蓝色编织袋）5kg',
             info:'盘中稻花香，粒粒皆五常',
             price_01:'89.',
             price_02:'90'
           },
           {
-            img:require('../assets/corn_02.jpg'),
+            img:require('../assets/home/corn_02.jpg'),
             name:'五常稻谷大米（蓝色编织袋）5kg',
             info:'盘中稻花香，粒粒皆五常',
             price_01:'89.',
             price_02:'90'
           },
           {
-            img:require('../assets/corn_03.jpg'),
+            img:require('../assets/home/corn_03.jpg'),
             name:'五常稻谷大米（蓝色编织袋）5kg',
             info:'盘中稻花香，粒粒皆五常',
             price_01:'89.',
             price_02:'90'
           },
           {
-            img:require('../assets/corn_04.jpg'),
+            img:require('../assets/home/corn_04.jpg'),
             name:'五常稻谷大米（蓝色编织袋）5kg',
             info:'盘中稻花香，粒粒皆五常',
             price_01:'89.',
             price_02:'90'
           }
         ],
-        imgSp:require('../assets/special_04.jpg')
+        imgSp:require('../assets/home/special_04.jpg')
       }
     }
   }

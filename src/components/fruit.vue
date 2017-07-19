@@ -25,35 +25,35 @@
           return{
               fruitLists:[
                 {
-                    img:require('../assets/fruit_01.jpg'),
+                    img:require('../assets/home/fruit_01.jpg'),
                     name:'赣南脐橙5斤装',
                     info:'味甜肉嫩，满满VC能量',
                     price_01:'49.',
                     price_02:'90'
                 },
                 {
-                  img:require('../assets/fruit_02.jpg'),
+                  img:require('../assets/home/fruit_02.jpg'),
                   name:'赣南脐橙5斤装',
                   info:'味甜肉嫩，满满VC能量',
                   price_01:'49.',
                   price_02:'90'
                 },
                 {
-                  img:require('../assets/fruit_03.jpg'),
+                  img:require('../assets/home/fruit_03.jpg'),
                   name:'赣南脐橙5斤装',
                   info:'味甜肉嫩，满满VC能量',
                   price_01:'49.',
                   price_02:'90'
                 },
                 {
-                  img:require('../assets/fruit_04.jpg'),
+                  img:require('../assets/home/fruit_04.jpg'),
                   name:'赣南脐橙5斤装',
                   info:'味甜肉嫩，满满VC能量',
                   price_01:'49.',
                   price_02:'90'
                 }
               ],
-            imgSp:require('../assets/special_02.jpg')
+            imgSp:require('../assets/home/special_02.jpg')
           }
       }
   }

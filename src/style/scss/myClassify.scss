@@ -1,0 +1,24 @@
+.infos{
+  width:6.4rem;
+  height:13.34rem;
+  background: linear-gradient(top left,orange,orangered,salmon);
+  background: -webkit-linear-gradient(top left,orange,darkkhaki,salmon,sandybrown,skyblue);
+  .fir,.sec,.thr{
+    width:6rem;
+    padding:0.2rem;
+    text-align: center;
+    height:1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.3rem;
+  }
+  .fir{
+    padding-top: 2rem;
+    color: cadetblue;
+  }
+  .sec{
+    color: darkcyan;
+  }
+  .thr{
+    color: darkolivegreen;
+  }
+}

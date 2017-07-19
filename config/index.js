@@ -23,7 +23,8 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
-    port: 8080,
+    port: 6060,
+    host:'192.168.1.71', //本地端口   192.168.1.71:6060
     autoOpenBrowser: true,
     assetsSubDirectory: 'assets',
     assetsPublicPath: '/',

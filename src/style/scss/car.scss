@@ -1,0 +1,42 @@
+.car-container{
+  margin-top: 1.6rem;
+  width:6.4rem;
+  height:3.7rem;
+  .carImg{
+    margin-left: 2.26rem;
+    width:1.88rem;
+    height:1.88rem;
+    background: #ccc;
+    border-radius: 50%;
+    img{
+      width:1.02rem;
+      height:1.02rem;
+      padding:0.43rem;
+    }
+  }
+  .info{
+    font-size: 0.28rem;
+    margin-top: 0.32rem;
+    text-align: center;
+    color: #051b28;
+  }
+  .ask{
+    margin-top: 0.133rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.22rem;
+  }
+  .btn{
+    display: block;
+    margin-top: 0.267rem;
+    text-align: center;
+    height:0.52rem;
+    line-height: 0.52rem;
+    width:1.5rem;
+    margin-left: 2.45rem;
+    font-size: 0.25rem;
+    border:0.01rem solid #aaa;
+    border-radius: 0.107rem;
+    color: #051b28;
+  }
+}

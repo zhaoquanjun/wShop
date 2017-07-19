@@ -8,7 +8,7 @@
   export default{
       data(){
           return {
-              imgP:require('../assets/point.png')
+              imgP:require('../assets/home/point.png')
           }
       }
 

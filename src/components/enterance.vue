@@ -15,10 +15,10 @@
       data(){
           return {
               infos:[
-                {image:require('../assets/logo_04.png'),name:'会员签到'},
-                {image:require('../assets/logo_03.png'),name:'爆款特卖'},
-                {image:require('../assets/logo_01.png'),name:'新品上线'},
-                {image:require('../assets/logo_02.png'),name:'热卖排行'}
+                {image:require('../assets/home/logo_04.png'),name:'会员签到'},
+                {image:require('../assets/home/logo_03.png'),name:'爆款特卖'},
+                {image:require('../assets/home/logo_01.png'),name:'新品上线'},
+                {image:require('../assets/home/logo_02.png'),name:'热卖排行'}
               ]
           }
       },

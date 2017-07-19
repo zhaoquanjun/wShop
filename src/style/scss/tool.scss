@@ -1,0 +1,61 @@
+.tool-container{
+  width: 6.4rem;
+  margin-top: 0.1rem;
+  .tTitle{
+    display: block;
+    width:6.4rem;
+    height: 0.5rem;
+    background: #fff;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    p{
+      height: 0.5rem;
+      line-height: 0.5rem;
+      text-align: center;
+    }
+    p:nth-child(1){
+      float: left;
+      font-size: 0.25rem;
+    }
+    p:nth-child(2){
+      float: right;
+      font-size: 0.18rem;
+      color: #ccc;
+      margin-right: 0.4rem;
+    }
+  }
+  .fucContainer{
+    margin-top: 0.05rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    width:6.4rem;
+    height:3rem;
+    background: #fff;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    align-content: space-around;
+    -webkit-align-content: space-around;
+    .fuc{
+      width:1.4rem;
+      height:1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      .fucImg{
+        height:0.5rem;
+        width:0.5rem;
+        padding-left: 0.45rem;
+        padding-right: 0.45rem;
+      }
+      .fucName{
+        padding-top: 0.2rem;
+        height:0.3rem;
+        text-align: center;
+        font-size: 0.2rem;
+      }
+    }
+  }
+}

@@ -24,7 +24,7 @@
       return {
         meatLists: [
           {
-            img: require('../assets/meat_01.jpg'),
+            img: require('../assets/home/meat_01.jpg'),
             name: '锡盟切块羊排',
             weight:'500克',
             info: '肥瘦相间，故乡肉嫩',
@@ -32,14 +32,14 @@
             price_02: '50'
           },
           {
-            img: require('../assets/meat_01.jpg'),
+            img: require('../assets/home/meat_01.jpg'),
             name: '锡盟切块羊排',
             weight:'500克',
             info: '肥瘦相间，故乡肉嫩',
             price_01: '37.',
             price_02: '50'
           },   {
-            img: require('../assets/meat_01.jpg'),
+            img: require('../assets/home/meat_01.jpg'),
             name: '锡盟切块羊排',
             weight:'500克',
             info: '肥瘦相间，故乡肉嫩',
@@ -47,7 +47,7 @@
             price_02: '50'
           }
           ,   {
-            img: require('../assets/meat_01.jpg'),
+            img: require('../assets/home/meat_01.jpg'),
             name: '锡盟切块羊排',
             weight:'500克',
             info: '肥瘦相间，故乡肉嫩',
@@ -55,7 +55,7 @@
             price_02: '50'
           },
           {
-            img: require('../assets/meat_01.jpg'),
+            img: require('../assets/home/meat_01.jpg'),
             name: '锡盟切块羊排',
             weight:'500克',
             info: '肥瘦相间，故乡肉嫩',
@@ -63,7 +63,7 @@
             price_02: '50'
           },
           {
-            img: require('../assets/meat_01.jpg'),
+            img: require('../assets/home/meat_01.jpg'),
             name: '锡盟切块羊排',
             weight:'500克',
             info: '肥瘦相间，故乡肉嫩',
@@ -71,7 +71,7 @@
             price_02: '50'
           }
         ],
-        imgSp:require('../assets/special_03.jpg')
+        imgSp:require('../assets/home/special_03.jpg')
       }
     }
 
