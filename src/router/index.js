@@ -31,6 +31,10 @@ export default[
         component:AllEntrance
       },
       {
+        path:'/',
+        redirect:'/AllEntrance'
+      },
+      {
         path:'/WaitPay',
         component:WaitPay
       },

@@ -1,6 +1,6 @@
 <template>
   <div class="tab">
-    <router-link class="led" to="/AllEntrance" tag="ul">
+    <router-link class="led" to="/AllEntrance" active-class= true tag="ul">
       <p>全部</p>
       <router-link class="tab-progress" to="/AllEntrance" tag="li" active-class="show"></router-link>
     </router-link>
@@ -25,16 +25,12 @@
 
 <script>
 
-  import {AllEntrance} from '../components'
   export default{
     data(){
       return {
 
       }
     },
-    components: {
-      AllEntrance
-    }
   }
 
 
