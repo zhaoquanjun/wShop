@@ -3,7 +3,7 @@
     <div class="carImg"><img :src="imgCar" alt=""></div>
     <p class="info">{{ info }}</p>
     <p class="ask">{{ askFor }}</p>
-    <a class="btn" href="">去逛逛</a>
+    <router-link to="/" class="btn" href="">去逛逛</router-link>
   </div>
 </template>
 

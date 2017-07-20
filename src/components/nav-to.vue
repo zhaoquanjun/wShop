@@ -1,39 +1,38 @@
 <template>
   <div class="footer-container">
     <div class="nav">
-      <router-link to="/" class="navTo" @click="ledTo($event)">
-        <div class="nav-icon">
-          <img class="home" src="../assets/home/footer/home.png" alt="">
-        </div>
-        <div class="nav-name">首页</div>
+      <router-link to="/" tag="li" class="navTo" active-class="activeBg" exact>
+        <router-link to="/" active-class="homeCur " class="nav-icon home_bg" exact>
+        </router-link>
+        <router-link to="/" class="nav-name" active-class="active" exact>首页</router-link>
+        <router-link to="/" class="progress" active-class="show" exact></router-link>
       </router-link>
-      <router-link to="/MyClassify" class="navTo" @click="ledTo($event)">
-        <div class="nav-icon">
-          <img class="classiy" src="../assets/home/footer/classify_logo.png" alt="">
-        </div>
-        <div class="nav-name">分类</div>
+      <router-link to="/MyClassify" tag="li" class="navTo" active-class="activeBg" >
+        <router-link to="/MyClassify" active-class="classifyCur " class="nav-icon classify_bg">
+        </router-link>
+        <router-link to="/MyClassify" class="nav-name" active-class="active">分类</router-link>
+        <router-link to="/MyClassify" class="progress" active-class="show"></router-link>
       </router-link>
-      <router-link to="/ShoppingCar" class="navTo" @click="ledTo($event)">
-        <div class="nav-icon">
-          <img class="shoppingCar" src="../assets/home/footer/shoppingCar_logo.png" alt="">
-        </div>
-        <div class="nav-name shoppingCar">购物车</div>
+      <router-link to="/ShoppingCar" tag="li" class="navTo" active-class="activeBg" >
+        <router-link to="/ShoppingCar" active-class=" " class="nav-icon shopping_bg">
+        </router-link>
+        <router-link to="/ShoppingCar" class="nav-name" active-class="active">购物车</router-link>
+        <router-link to="/ShoppingCar" class="progress" active-class="show"></router-link>
       </router-link>
-      <router-link to="/MyOwn" class="navTo" @click="ledTo($event)">
-        <div class="nav-icon">
-          <img class="myOwn" src="../assets/home/footer/myOwn_logo.png" alt="">
-        </div>
-        <div class="nav-name myOwn">我的</div>
+      <router-link to="/MyOwn" tag="li" class="navTo" active-class="activeBg" >
+        <router-link to="/MyOwn" active-class="myCur " class="nav-icon myOwn_bg">
+        </router-link>
+        <router-link to="/MyOwn" class="nav-name" active-class="active">我的</router-link>
+        <router-link to="/MyOwn" class="progress" active-class="show"></router-link>
       </router-link>
     </div>
-    <div class="progress"></div>
+
   </div>
 
 </template>
 <script>
-  import {ShoppingCar,MyOwn,MyClassify} from '../page'
 
-  import Jquery from 'jquery'
+  import Jquery from 'jquery/dist/jquery.min'
   window.$ = Jquery;
   export default{
     data(){
@@ -41,47 +40,36 @@
         leftO: 0
       }
     },
-    components: {
-      ShoppingCar,
-      MyOwn,
-      MyClassify
-    },
     methods: {
-      ledTo(){
-        var target = event.currentTarget,
-          children = $(target).children('.nav-name')[0];
-        $(target).css('background', '#333').siblings().css('background', '#404042');
-        $(target).children('.nav-name').css('color', '#fff').parent().siblings().children('.nav-name').css('color', '#949494');
-        if (children.innerHTML == '首页') {
-          this.left = 0;
-          $(target).children('.nav-icon').children('img').attr('src', require('../assets/home/footer/home_hight.png'));
-          $('.classiy').attr('src', require('../assets/home/footer/classify_logo.png'));
-          $('.shoppingCar').attr('src', require('../assets/home/footer/shoppingCar_logo.png'));
-          $('.myOwn').attr('src', require('../assets/home/footer/myOwn_logo.png'));
-          $('.progress').animate({left: this.left});
-        } else if (children.innerHTML == '分类') {
-          this.left = 1.6 + 'rem';
-          $(target).children('.nav-icon').children('img').attr('src', require('../assets/home/footer/classify_hight.png'));
-          $('.home').attr('src', require('../assets/home/footer/home.png'));
-          $('.shoppingCar').attr('src', require('../assets/home/footer/shoppingCar_logo.png'));
-          $('.myOwn').attr('src', require('../assets/home/footer/myOwn_logo.png'));
-          $('.progress').animate({left: this.left});
-        } else if (children.innerHTML == '购物车') {
-          this.left = 3.2 + 'rem';
-          $(target).children('.nav-icon').children('img').attr('src', require('../assets/home/footer/shoppingCar_hight.png'));
-          $('.home').attr('src', require('../assets/home/footer/home.png'));
-          $('.classiy').attr('src', require('../assets/home/footer/classify_logo.png'));
-          $('.myOwn').attr('src', require('../assets/home/footer/myOwn_logo.png'));
-          $('.progress').animate({left: this.left});
-        } else if (children.innerHTML == '我的') {
-          this.left = 4.8 + 'rem';
-          $(target).children('.nav-icon').children('img').attr('src', require('../assets/home/footer/myOwn_hight.png'));
-          $('.home').attr('src', require('../assets/home/footer/home.png'));
-          $('.classiy').attr('src', require('../assets/home/footer/classify_logo.png'));
-          $('.shoppingCar').attr('src', require('../assets/home/footer/shoppingCar_logo.png'));
-          $('.progress').animate({left: this.left});
-        }
-      }
+//      led_home(){
+//        this.leftO = 0;
+//        var target = event.currentTarget;
+//        var _target = $(target).parent().siblings('div');
+//        _target.animate({left: this.leftO});
+//        console.log(this.leftO)
+//      },
+//      ledClassify(){
+//        this.leftO = 1.6;
+//        var target = event.currentTarget;
+//        var _target = $(target).parent().siblings('div');
+//        _target.animate({left: this.leftO + 'rem'});
+//        console.log(this.leftO)
+//      },
+//      ledCar(){
+//        this.leftO = 3.2;
+//        var target = event.currentTarget;
+//        var _target = $(target).parent().siblings('div');
+//        _target.animate({left: this.leftO + 'rem'});
+//        console.log(this.leftO)
+//      },
+//      ledOwn(){
+//        this.leftO = 4.8;
+//        var target = event.currentTarget;
+//        var _target = $(target).parent().siblings('div');
+//        _target.animate({left: this.leftO + 'rem'});
+//        console.log(this.leftO,_target)
+//      }
+
     }
 
   }

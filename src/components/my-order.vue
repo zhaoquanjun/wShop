@@ -1,9 +1,9 @@
 <template>
   <div class="order-container">
-    <a href="" class="tTitle">
+    <router-link to="/OrderList" class="tTitle">
       <p>我的订单</p>
       <p>查看更多订单 ></p>
-    </a>
+    </router-link>
     <div class="fucContainer">
       <a href="" class="fuc" v-for="status in fucLists">
         <p class="fucImg"><img :src="status.img" alt=""></p>

@@ -1,0 +1,141 @@
+.takeSpace{
+  width: 6.4rem;
+  height:0.75rem;
+  background: #fff;
+}
+.order-container {
+  width: 6.4rem;
+  .order-title {
+    height: 0.5rem;
+    background: #fff;
+    p {
+      height: 0.5rem;
+      line-height: 0.5rem;
+      font-size: 0.2rem;
+    }
+    .order-name {
+      float: left;
+      .order-icon {
+        display: block;
+        float: left;
+        width: 0.2rem;
+        height: 0.2rem;
+        padding: 0 0.15rem 0.15rem 0.15rem;
+      }
+      .order-name_ {
+        display: block;
+        float: left;
+      }
+      span {
+        font-size: 0.2rem;
+      }
+    }
+    .order-info {
+      padding-right: 0.12rem;
+      float: right;
+      font-size: 0.2rem;
+      color: #e72519;
+    }
+  }
+  .goods-container {
+    padding: 0.1rem;
+    height: 1.8rem;
+    width: 6.2rem;
+    background: #fafafa;
+    .goodsImg {
+      float: left;
+      padding: 0.25rem;
+      width: 1.3rem;
+      height: 1.3rem;
+    }
+    .goodsInfo {
+      float: left;
+      width: 4.3rem;
+      padding-top: 0.25rem;
+      .goods-intro {
+        float: left;
+        width: 3.2rem;
+        font-size: 0.2rem;
+        padding-right: 0.1rem;
+      }
+      .price_count {
+        float: right;
+        margin-right: 0.1rem;
+        p {
+          font-size: 0.18rem;
+          text-align: right;
+          line-height: 0.38rem;
+        }
+        .salePrice {
+
+        }
+        .originPrice {
+          color: #b8b8b8;
+          text-decoration: line-through;
+        }
+        .count {
+          color: #b8b8b8;
+          font-size: 0.15rem;
+        }
+      }
+    }
+  }
+  .total-info {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #fff;
+    padding-right: 0.1rem;
+    p {
+      display: block;
+      font-size: 0.18rem;
+      float: right;
+    }
+    .totalPrice {
+      span {
+        font-size: 0.18rem;
+        line-height: 0.5rem;
+      }
+      .big {
+        font-size: 0.25rem;
+        line-height: 0.4rem;
+      }
+    }
+    .goodsNum{
+      font-size: 0.18rem;
+      margin-right: 0.2rem;
+    }
+
+  }
+  .fucBtn {
+    height: 0.5rem;
+    margin-top: 0.02rem;
+    background: #fff;
+    padding-right: 0.1rem;
+    .btn {
+      width: 1rem;
+      height: 0.34rem;
+      line-height: 0.34rem;
+      text-align: center;
+      margin: 0.08rem;
+      border-radius: 0.25rem;
+      border:0.01rem solid #ccc;
+      float: right;
+      font-size: 0.18rem;
+    }
+    .confirm {
+      color: #e72519;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
