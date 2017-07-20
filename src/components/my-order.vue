@@ -5,10 +5,12 @@
       <p>查看更多订单 ></p>
     </router-link>
     <div class="fucContainer">
-      <a href="" class="fuc" v-for="status in fucLists">
-        <p class="fucImg"><img :src="status.img" alt=""></p>
-        <p class="fucName">{{ status.name }}</p>
-      </a>
+      <ul  class="fuc" v-for="status in fucLists">
+        <router-link :to="status.path" tag="li">
+          <p class="fucImg"><img :src="status.img" alt=""></p>
+          <p class="fucName">{{ status.name }}</p>
+        </router-link>
+      </ul>
     </div>
   </div>
 </template>
@@ -19,11 +21,11 @@
       data(){
           return{
               fucLists:[
-                {img:require('../assets/myOwn/wait_pay.jpg'),name:'待付款'},
-                {img:require('../assets/myOwn/wait_post.jpg'),name:'待发货'},
-                {img:require('../assets/myOwn/wait_get.jpg'),name:'待收货'},
-                {img:require('../assets/myOwn/wait_commit.jpg'),name:'待评价'},
-                {img:require('../assets/myOwn/return_back.jpg'),name:'退款/售后'},
+                {img:require('../assets/myOwn/wait_pay.jpg'),name:'待付款',path:'/WaitPay'},
+                {img:require('../assets/myOwn/wait_post.jpg'),name:'待发货',path:'/WaitPost'},
+                {img:require('../assets/myOwn/wait_get.jpg'),name:'待收货',path:'/WaitGet'},
+                {img:require('../assets/myOwn/wait_commit.jpg'),name:'待评价',path:'/WaitCommit'},
+                {img:require('../assets/myOwn/return_back.jpg'),name:'退款/售后',path:'/'},
               ]
           }
       }
