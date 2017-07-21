@@ -5,17 +5,24 @@
       <all-entrance></all-entrance>
     </router-view>
     <router-view>
-      <wait-pay-entrance></wait-pay-entrance>
+      <wait-pay></wait-pay>
     </router-view>
-
+    <router-view>
+      <wait-post></wait-post>
+    </router-view>
+    <router-view>
+      <wait-get></wait-get>
+    </router-view>
+    <router-view>
+      <wait-commit></wait-commit>
+    </router-view>
   </div>
 </template>
 
 
 <script>
 
-  import {OrderTab, AllEntrance, WaitPayEntrance} from '../components'
-
+  import {OrderTab, AllEntrance, WaitPay,WaitPost,WaitGet,WaitCommit} from '../components'
   export default{
     data(){
       return {}
@@ -23,7 +30,10 @@
     components: {
       OrderTab,
       AllEntrance,
-      WaitPayEntrance
+      WaitPay,
+      WaitPost,
+      WaitGet,
+      WaitCommit
     }
   }
 

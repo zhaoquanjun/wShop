@@ -25,7 +25,7 @@
                 {img:require('../assets/myOwn/wait_post.jpg'),name:'待发货',path:'/WaitPost'},
                 {img:require('../assets/myOwn/wait_get.jpg'),name:'待收货',path:'/WaitGet'},
                 {img:require('../assets/myOwn/wait_commit.jpg'),name:'待评价',path:'/WaitCommit'},
-                {img:require('../assets/myOwn/return_back.jpg'),name:'退款/售后',path:'/'},
+                {img:require('../assets/myOwn/return_back.jpg'),name:'退款/售后',path:'/Repair'},
               ]
           }
       }

@@ -16,6 +16,10 @@ import WaitPay from './wait-pay.vue'
 import WaitPost from './wait-post.vue'
 import WaitGet from './wait-get.vue'
 import WaitCommit from './wait-commit.vue'
+import Repair from './repair.vue'
+import CollectNav from './collect-nav.vue'
+import CollectionItemGoods from './collection-item-goods.vue'
+import CollectionItemShop from './collection-item-shop.vue'
 
 export{
   Banner,
@@ -35,5 +39,9 @@ export{
   WaitPay,
   WaitPost,
   WaitGet,
-  WaitCommit
+  WaitCommit,
+  Repair,
+  CollectNav,
+  CollectionItemGoods,
+  CollectionItemShop
 }

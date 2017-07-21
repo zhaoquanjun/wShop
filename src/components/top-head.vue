@@ -6,14 +6,14 @@
       <div class="count">淘气值：{{ count }}</div>
     </div>
     <div class="classify">
-      <div class="collection">
+      <router-link to="/Collection" tag="div" class="collection">
         <p>{{ collectionNum }}</p>
         <p>收藏夹</p>
-      </div>
-      <div class="attention">
+      </router-link>
+      <router-link to="/collectionItemShop" tag="div" class="attention">
         <p>{{ attentionNum }}</p>
         <p>关注店铺</p>
-      </div>
+      </router-link>
       <div class="footPrint">
         <p>{{ footPrintNum }}</p>
         <p>足迹</p>

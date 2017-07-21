@@ -1,0 +1,62 @@
+.collection-item{
+  height:2rem;
+  width:6.3rem;
+  padding:0.05rem;
+  background: #fff;
+  margin-top: 0.1rem;
+  .itemImg{
+    width:1.9rem;
+    height:1.9rem;
+    float: left;
+  }
+  .itemInfo{
+    width:4.2rem;
+    float: left;
+    padding:0 0.1rem;
+    .itemIntro{
+      width:4.2rem;
+      font-size: 0.2rem;
+    }
+    .itemPrice_btn{
+      width:4.2rem;
+      font-size: 0.2rem;
+      color: #e72519;
+      margin-top: 0.8rem;
+      .price{
+        float: left;
+        span{
+          font-size: 0.2rem;
+        }
+        .big{
+          font-size: 0.3rem;
+        }
+      }
+      .itemBtn{
+        float: right;
+        padding:0.05rem 0.2rem;
+        height:0.26rem;
+        line-height: 0.26rem;
+        border:0.015rem solid #e72519;
+        border-radius: 0.2rem;
+        font-size: 0.15rem;
+      }
+      .more{
+        float: right;
+        padding-top: 0.15rem;
+        padding-left: 0.2rem;
+        span{
+          display: block;
+          float: left;
+          width:0.05rem;
+          height:0.05rem;
+          margin-right: 0.05rem;
+          border-radius: 50%;
+          background: #ccc;
+        }
+      }
+    }
+  }
+}
+.collection-item:nth-child(1){
+  margin-top: 0;
+}
