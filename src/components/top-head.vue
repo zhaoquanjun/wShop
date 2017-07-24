@@ -14,10 +14,10 @@
         <p>{{ attentionNum }}</p>
         <p>关注店铺</p>
       </router-link>
-      <div class="footPrint">
+      <router-link to="/FootPrint" tag="div" class="footPrint">
         <p>{{ footPrintNum }}</p>
         <p>足迹</p>
-      </div>
+      </router-link>
     </div>
   </div>
 </template>

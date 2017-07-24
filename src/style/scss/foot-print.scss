@@ -1,0 +1,56 @@
+.print-container{
+  width:6.4rem;
+ .print-item{
+   width:3rem;
+   float: left;
+   margin:0.1rem;
+   background: #fff;
+   border-radius: 0.08rem;
+   .itemImg{
+     width:3rem;
+     height:3.5rem;
+     border-top-left-radius: 0.08rem;
+     border-top-right-radius: 0.08rem;
+     img{
+       border-top-left-radius: 0.08rem;
+       border-top-right-radius: 0.08rem;
+     }
+   }
+   .itemIntro{
+     width:2.8rem;
+     height:0.5rem;
+     margin:0.1rem 0.1rem 0 0.1rem;
+     padding-bottom: 0.1rem;
+     border-bottom: 0.02rem dashed #ccc;
+     font-size: 0.2rem;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+   }
+   .itemPrice{
+     width:2.6rem;
+     padding:0 0.2rem;
+     .priceL{
+       float: left;
+       line-height: 0.5rem;
+       font-size: 0.2rem;
+       color: #e72519;
+     }
+     .more{
+       float: right;
+       padding-top: 0.25rem;
+       span{
+         display: block;
+         float: left;
+         width:0.05rem;
+         height:0.05rem;
+         border-radius: 50%;
+         background: #ccc;
+         margin-right: 0.1rem;
+       }
+     }
+   }
+ }
+}

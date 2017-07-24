@@ -20,6 +20,11 @@ import Repair from './repair.vue'
 import CollectNav from './collect-nav.vue'
 import CollectionItemGoods from './collection-item-goods.vue'
 import CollectionItemShop from './collection-item-shop.vue'
+import FootPrint from './foot-print.vue'
+
+
+
+
 
 export{
   Banner,
@@ -43,5 +48,6 @@ export{
   Repair,
   CollectNav,
   CollectionItemGoods,
-  CollectionItemShop
+  CollectionItemShop,
+  FootPrint
 }

@@ -12,7 +12,8 @@ import {
   WaitCommit,
   Repair,
   CollectionItemGoods,
-  CollectionItemShop
+  CollectionItemShop,
+  FootPrint
 } from '../components'
 
 export default[
@@ -84,4 +85,8 @@ export default[
       }
     ]
   },
+  {
+    path:'/FootPrint',
+    component:FootPrint
+  }
 ]
