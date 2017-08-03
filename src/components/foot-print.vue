@@ -61,7 +61,7 @@
             price: '￥57'
           },
           {
-            imgP: require('../assets/myOwn/footPrint/shop-img_09.jpg'),
+            imgP: require('../assets/myOwn/footPrint/shop-img_08.jpg'),
             intro: '日本代购LION/狮王滴眼润洗眼液药水隐形裸眼两用缓解疲劳护眼液',
             price: '￥57'
           }
